@@ -1,0 +1,134 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+
+<section class="box chats active">
+    <div class="data">
+        <div class="chat-list">
+            <div class="chat unread open">
+                <div class="img-box">
+                    <img src="{% static 'img/profile-1.png' %}" alt="">
+                </div>
+                <div class="details">
+                    <div class="chat-head">
+                        <h4>alex smith</h4>
+                        <p class="time">4:10 PM</p>
+                    </div>
+                    <div class="message">
+                        <p>How to make website using html css?</p>
+                        <b>1</b>
+                    </div>
+                </div>
+            </div>
+            <div class="chat unread">
+                <div class="img-box">
+                    <img src="{% static 'img/profile-2.png' %}" alt="">
+                </div>
+                <div class="details">
+                    <div class="chat-head">
+                        <h4>amelia</h4>
+                        <p class="time">7:10 PM</p>
+                    </div>
+                    <div class="message">
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptas, est.</p>
+                        <b>1</b>
+                    </div>
+                </div>
+            </div>
+            <div class="chat unread">
+                <div class="img-box">
+                    <img src="{% static 'img/profile-3.png' %}" alt="">
+                </div>
+                <div class="details">
+                    <div class="chat-head">
+                        <h4>diana</h4>
+                        <p class="time">9:10 PM</p>
+                    </div>
+                    <div class="message">
+                        <p>bye</p>
+                        <b>1</b>
+                    </div>
+                </div>
+            </div>
+            <div class="chat unread">
+                <div class="img-box">
+                    <img src="{% static 'img/profile-4.png' %}" alt="">
+                </div>
+                <div class="details">
+                    <div class="chat-head">
+                        <h4>joseph</h4>
+                        <p class="time">8:10 PM</p>
+                    </div>
+                    <div class="message">
+                        <p>How are you?</p>
+                        <b>1</b>
+                    </div>
+                </div>
+            </div>
+            <div class="chat">
+                <div class="img-box">
+                    <img src="{% static 'img/profile-5.jpg' %}" alt="">
+                </div>
+                <div class="details">
+                    <div class="chat-head">
+                        <h4>george</h4>
+                        <p class="time">yesterday</p>
+                    </div>
+                    <div class="message">
+                        <p>see you man</p>
+
+                    </div>
+                </div>
+            </div>
+            <div class="chat">
+                <div class="img-box">
+                    <img src="{% static 'img/profile-6.jpg' %}" alt="">
+                </div>
+                <div class="details">
+                    <div class="chat-head">
+                        <h4>sara</h4>
+                        <p class="time">yesterday</p>
+                    </div>
+                    <div class="message">
+                        <p>I found you on facebook</p>
+
+                    </div>
+                </div>
+            </div>
+            <div class="chat">
+                <div class="img-box">
+                    <img src="{% static 'img/profile-7.jpg' %}" alt="">
+                </div>
+                <div class="details">
+                    <div class="chat-head">
+                        <h4>adam</h4>
+                        <p class="time">12/12/2022</p>
+                    </div>
+                    <div class="message">
+                        <p>ohhh ookay hope get better soon</p>
+
+                    </div>
+                </div>
+            </div>
+            <div class="chat">
+                <div class="img-box">
+                    <img src="{% static 'img/profile-8.jpg' %}" alt="">
+                </div>
+                <div class="details">
+                    <div class="chat-head">
+                        <h4>dana</h4>
+                        <p class="time">11/12/2022</p>
+                    </div>
+                    <div class="message">
+                        <p>How are you?</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="menu-btn">
+        <i class="fas fa-comment-dots"></i>
+    </div>
+</section>
+
+{% endblock content %}
